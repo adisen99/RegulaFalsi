@@ -13,6 +13,13 @@ n    = input('no. of iterations=');
 % Use the inline function tool to make the entered string, a function.
 f    = inline(a);
 
+% Code to determine the points between which the root lies
+for x = 0:100
+    if f(x)*f(x+1) <= 0
+        fprintf('The root lies between:',round(x),'and',round(x+1))
+    end
+end
+
 % Find the values of y1 and y2
 y1   = f(x(1));
 y2   = f(x(2));
