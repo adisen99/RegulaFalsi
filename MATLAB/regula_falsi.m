@@ -11,7 +11,10 @@ f   = inline(a);
 % Code to determine the points between which the root lies
 for x = 0:100
 	if f(x)*f(x+1) <= 0
-		fprintf('The root lies between:',round(x),'and',round(x+1))
+		fprintf('The root lies between:')
+		round(x,0)
+		fprintf('and')
+		round(x+1,0)
 	end
 end
 
