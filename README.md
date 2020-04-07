@@ -1,5 +1,5 @@
 # RegulaFalsi
-MATLAB and Python code to determine the roots of  a function using the Regula-Falsi method or 'Method of false assumptions'.
+MATLAB and Python code to determine the roots of  a function using the Regula-Falsi method or 'Method of false assumptions'
 
 _______________________________________________________________________________________________________________________________
 
